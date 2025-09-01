@@ -1,0 +1,63 @@
+h1,
+p,
+h2 {
+  text-align: center;
+}
+
+body {
+   background-image:url(./images/image.png);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin: auto;
+  padding:20px;
+   max-width:500px;}
+   
+.flavour, 
+.Dessert{
+  text-align: left;
+  width:49%;
+}
+
+.price {
+  width:49%;
+  text-align: right;
+}
+
+
+.item p{
+  display:inline-block;
+}
+<hr 
+      <!-->footer begins here -->
+      <footer>
+        <p>
+          <a href="https://www.sonrisasacademy.org" target="_blank"
+            >Visit our website</a
+          >
+        </p>
+        <p>123 Sonrisas Drive</p>
+      </footer>
+      <!-- footer ends here -->
+a {
+  color: black;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: indianred;
+}
+
+a:active {
+  color: green;
+}
+img {
+  display: block;
+  margin: auto;
+}
